@@ -1,0 +1,80 @@
+import { createTheme } from "@mui/material";
+
+const theme = createTheme({
+  palette: {},
+  typography: {
+    fontFamily: '"Inter", sans-serif',
+    fontSize: "13px",
+    fontWeight: "normal",
+    fontStretch: "normal",
+    fontStyle: "normal",
+    lineHeight: "1.11",
+    h1: {
+      fontWeight: "500",
+      fontStretch: "normal",
+      fontStyle: "normal",
+      lineHeight: "1.12",
+      letterSpacing: "-0.6px",
+      color: "#fff",
+      textAlign: "center",
+    },
+    h2: {
+      fontFamily: "Inter",
+      fontSize: "50px",
+      fontWeight: "500",
+      fontStretch: "normal",
+      fontStyle: "normal",
+      lineHeight: "1",
+      letterSpacing: "-0.5px",
+      textAlign: "left",
+      color: "#090a18",
+    },
+    h3: {
+      fontFamily: "Inter",
+      fontSize: "37px",
+      fontWeight: "500",
+      fontStretch: "normal",
+      fontStyle: "normal",
+      lineHeight: "1.2",
+      letterSpacing: "normal",
+      textAlign: "left",
+      color: "#090a18",
+    },
+    h4: {
+      fontFamily: "Inter",
+      fontSize: "26px",
+      fontWeight: "500",
+      fontStretch: "normal",
+      fontStyle: "normal",
+      lineHeight: "1.2",
+      letterSpacing: "normal",
+      textAlign: "left",
+      color: "#090a18",
+    },
+    button: {},
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#fff",
+          borderRadius: "10px",
+          color: "#090a18",
+          padding: "20px ",
+          fontWeight: "500",
+          fontStretch: "normal",
+          fontStyle: "normal",
+          lineHeight: "1.09",
+          letterSpacing: "normal",
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "28px",
+          // boxShadow: "inset 0 -4px 0 0 #e8e6e9",
+          textTransform: "capitalize",
+        },
+      },
+    },
+  },
+});
+
+export default theme;

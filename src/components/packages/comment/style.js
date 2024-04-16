@@ -1,0 +1,76 @@
+export const style = {
+  padding: {
+    lg: "0 130px 30px 130px",
+    md: "0 70px 30px 70px",
+    sm: "0 30px 30px 30px",
+    xs: "0 18px 30px 18px",
+  },
+
+  "& .gradient": {
+    position: "relative",
+    zIndex: "1",
+    "&::before": {
+      content: '""',
+      borderRadius: "11px",
+      position: "absolute",
+      top: "0px",
+      left: "0",
+      right: "0",
+      bottom: "0px",
+      zIndex: "-1",
+      backgroundImage:
+        "linear-gradient(338deg, rgba(255, 255, 255, 0.1) 60%, rgb(255 255 255) 100%)",
+      margin: "-2px",
+    },
+  },
+
+  comment: {
+    padding: { lg: "40px", xs: "30px" },
+    borderRadius: "11px",
+    backgroundColor: "#171826",
+    display: "flex",
+    gap: { lg: "83px", xs: "58px" },
+    flexDirection: { md: "row", xs: "column" },
+  },
+  commentator: {
+    maxWidth: { lg: "450px", sm: "400px" },
+  },
+  info: {},
+  title: {
+    fontSize: { lg: "46px", xs: "36px" },
+    fontWeight: "500",
+    lineHeight: "1.19",
+    letterSpacing: "normal",
+    color: "#fff",
+    marginBottom: "20px",
+  },
+  desc: {
+    fontSize: { lg: "17px", xs: "15px" },
+    fontWeight: "normal",
+    lineHeight: "1.48",
+    letterSpacing: "normal",
+    color: "#b5b5ba",
+    marginBottom: "32px",
+  },
+  btns: {
+    display: "flex",
+    gap: "14px",
+    flexWrap: "wrap",
+    flexDirection: { sm: "row", xs: "column" },
+  },
+  btn: {
+    display: "flex",
+    gap: "8px",
+    alignItems: "center",
+    borderRadius: "8px",
+    border: "solid 1px rgba(255, 255, 255, 0.2)",
+    backgroundColor: "rgba(255, 255, 255, 0.04)",
+    padding: "10px 16px",
+    fontSize: "13px",
+    fontStyle: "normal",
+    lineHeight: "1.11",
+    letterSpacing: "normal",
+    color: "#b5b5ba",
+    width: "fit-content",
+  },
+};

@@ -1,0 +1,52 @@
+export const style = {
+  benifits: {},
+  head: {
+    fontSize: { lg: "15px", xs: "13px" },
+    fontWeight: "500",
+    lineHeight: "1.31",
+    letterSpacing: "0.96px",
+    textAlign: "center",
+    color: "#81808b",
+    marginBottom: "28px",
+  },
+  title: {
+    fontSize: { lg: "48px", md: "40px", sm: "36px", xs: "32px" },
+    fontWeight: "500",
+    lineHeight: "1",
+    letterSpacing: "-0.5px",
+    textAlign: "center",
+    color: "#090a18",
+    // marginBottom: "78px",
+  },
+  cards: {
+    display: "flex",
+    justifyContent: { lg: "space-between", xs: "center" },
+    alignItems: "center",
+    padding: { lg: "0 120px", xs: "0 18px" },
+    flexWrap: "wrap",
+  },
+  card: {
+    maxWidth: "340px",
+    textAlign: "center",
+    marginTop: { lg: "78px", xs: "60px" },
+  },
+  icon: {
+    textAlign: "center",
+    marginBottom: "30px",
+  },
+  cTitle: {
+    fontSize: "24px",
+    fontWeight: "500",
+    lineHeight: "1.2",
+    letterSpacing: "normal",
+    color: "#090a18",
+    marginBottom: "18px",
+  },
+  desc: {
+    fontSize: "16px",
+    fontWeight: "normal",
+    lineHeight: "1.48",
+    letterSpacing: "normal",
+    color: "#51535d",
+  },
+};
